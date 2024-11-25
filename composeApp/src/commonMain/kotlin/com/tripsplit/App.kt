@@ -1,17 +1,17 @@
 package com.tripsplit
 
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
+import com.tripsplit.core.designsystem.theme.TripSplitTheme
 import com.tripsplit.navigation.TripSplitNavGraph
 import org.jetbrains.compose.ui.tooling.preview.Preview
 import org.koin.compose.KoinContext
 
-@Composable
 @Preview
+@Composable
 fun App() {
-    MaterialTheme {
+    TripSplitTheme {
         KoinContext {
             TripSplitNavGraph(snackbarHostState = remember { SnackbarHostState() })
         }

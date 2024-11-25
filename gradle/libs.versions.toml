@@ -84,5 +84,5 @@ buildConfig = { id = "com.github.gmazzo.buildconfig", version.ref = "buildConfig
 
 
 # Plugins defined by this project
-rijksmuseum-composeMultiplatform = { id = "com.tewelde.rijksmuseum.composeMultiplatform", version = "unspecified" }
-rijksmuseum-kotlinMultiplatform = { id = "com.tewelde.rijksmuseum.kotlinMultiplatform", version = "unspecified" }
+tripsplit-composeMultiplatform = { id = "com.tripsplit.composeMultiplatform", version = "unspecified" }
+tripsplit-kotlinMultiplatform = { id = "com.tripsplit.kotlinMultiplatform", version = "unspecified" }

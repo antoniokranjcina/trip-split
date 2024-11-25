@@ -41,6 +41,9 @@ kotlin {
             implementation(libs.kotlinx.coroutines.android)
         }
         commonMain.dependencies {
+            implementation(projects.core.designsystem)
+            implementation(projects.feature.trip)
+
             implementation(compose.material3)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
